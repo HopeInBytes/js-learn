@@ -1,11 +1,11 @@
 const accountID = 12346;
-let acoountEmail = "pratiksha@gmail.com"
+let acoountEmail = "example@gmail.com"
 var accountPassword ="123467"
 let accountState;
 accountCity ="Pune"
 
 //accountID =2 //not allowed
-acoountEmail ="hs@sd.com"
+acoountEmail ="test@gmail.com"
 accountPassword ="64467374"
 accountCity = "us"
 /*
