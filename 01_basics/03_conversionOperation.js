@@ -20,3 +20,4 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber =24
 let stringNumber =Object(someNumber)
 console.log(typeof(stringNumber))
+//Conversion of datatyape
