@@ -30,4 +30,23 @@ console.log(typeof outsideTemp)
 //Array, Objects, Functions
 //Imp: if want to master in JS web event , learn browser Events, object 
 //JavaScript is a dynamically typed language. 
-// Dynamic Typing means that you do not need to explicitly specify the type of a variable when you declare it.
+// Dynamic Typing means that you do not need to explicitly 
+// specify the type of a variable when you declare it.
+
+//stack (primitive), heap(non-primitive)Memory used
+let myYoutubename ="code with harry"
+let anotherName = myYoutubename;
+anotherName = "chai or code"
+console.log(myYoutubename)
+console.log(anotherName)
+
+let userOne={
+    name: "pratik",
+    age:29 
+}
+
+let userTwo= userOne   
+
+userTwo.name="Pratiksha"
+console.log(userOne.name);
+console.log(userTwo.name);
