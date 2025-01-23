@@ -37,10 +37,46 @@ const users =[{
 }
 ]
 
-console.log(users[1].email);
-console.log(tinderUser);
+//console.log(users[1].email);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedn'));
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
+//console.log(tinderUser.hasOwnProperty('isLoggedn'));
+
+//object de-structure and JSON Api Intro
+
+
+const course = {
+    courseName :"Js in hindi",
+    price: "999",
+    courseInstructor:"Hitesh"
+}
+
+//console.log(course.courseInstructor);
+
+// console.log(course.courseInstructor);
+
+const{courseInstructor:instructor} = course
+//console.log(courseInstructor);
+console.log(instructor);
+
+//API Concepts in Object
+//JSON{}
+// {
+//     "name": "Pratiksha",
+//     "courseName":"Js-learn",
+//     "price": "Free"
+// }
+//URL:https://api.github.com/users/hiteshchoudhary
+
+//https://randomuser.me/api/
+//Use json formatter
+[
+    {},
+    {},
+    {}
+]
+
+//
